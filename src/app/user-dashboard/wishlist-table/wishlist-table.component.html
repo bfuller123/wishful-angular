@@ -1,0 +1,14 @@
+<table>
+  <thead>
+    <th>Item</th>
+    <th>Price</th>
+    <th>Date Added</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of items">
+      <td>{{item.name}}</td>
+      <td>${{item.price}}</td>
+      <td>{{item.date}}</td>
+    </tr>
+  </tbody>
+</table>
